@@ -6,3 +6,8 @@ jobs:
     steps:
       - name: Test01
         run: echo "success"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: tag01
+        run: echo "deployed"      
